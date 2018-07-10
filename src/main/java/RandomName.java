@@ -93,31 +93,5 @@ public class RandomName {
         }
     }
 
-    public ModelAndView one(ArrayList<String> names){
-        HashMap<String, Object> model = new HashMap<>();
-        model.put("names", names);
-        model.put("template", "one.vtl");
-        return new ModelAndView(model, "layout.vtl");
-    }
 
-    public ModelAndView two(ArrayList<String> names){
-        HashMap<String, Object> model = new HashMap<>();
-        model.put("names", names);
-        model.put("template", "two.vtl");
-        return new ModelAndView(model, "layout.vtl");
-    }
-
-    public ModelAndView three(ArrayList<String> names){
-        HashMap<String, Object> model = new HashMap<>();
-        model.put("names", names);
-        model.put("template", "three.vtl");
-        return new ModelAndView(model, "layout.vtl");
-    }
-
-    public ModelAndView four(ArrayList<String> names){
-        HashMap<String, Object> model = new HashMap<>();
-        model.put("names", names);
-        model.put("template", "four.vtl");
-        return new ModelAndView(model, "layout.vtl");
-    }
 }
